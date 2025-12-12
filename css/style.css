@@ -135,3 +135,65 @@ button:hover {
   background-color: #ff6f00;
 }
 
+.contenedor-rutinas {
+  padding: 200px;
+  margin-top: 120px;
+  
+}
+
+.rutinas {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: left;
+  border-left: 5px solid #28a745;
+  margin-bottom: 15px;
+}
+
+.rutinas h3 {
+  margin: 0 0 10px;
+}
+
+.rutinas .descripcion-rutina {
+  color: #666666;
+  margin-bottom: 15px;
+}
+
+.principiante, .intermedio, .avanzado {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.principiante {
+  background: #28a745;
+}
+
+.intermedio { 
+  background: #ff6f00; 
+}
+
+.avanzado { 
+  background: #dc3545; 
+}
+
+.btn-rutina {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #66b3ff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-rutina:hover {
+  background-color: #3399ff;
+}
