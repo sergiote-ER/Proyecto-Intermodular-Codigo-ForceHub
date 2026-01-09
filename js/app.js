@@ -9,6 +9,6 @@ function registrar(){
     if (mensaje.length > 0){
         alert(mensaje)
     } else {
-        alert('Todo correcto')
+        window.location.href = 'perfil.html'
     }
 }
