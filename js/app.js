@@ -22,3 +22,16 @@ function registrar(){
         mensajeError.innerHTML = mensaje
    }
             
+function modoOscuro() {
+   document.body.classList.toggle('oscuro');
+   if (document.body.classList.contains('oscuro')) {
+        document.getElementById('cambiarModo').src = '/img/modo-claro.png';
+    } else {
+        document.getElementById('cambiarModo').src = '/img/modo-oscuro.png';
+    }
+}
+
+/*function init(){
+   let iconoOscuro = document.getElementById('cambiarModo')
+   iconoOscuro.src = '/img/modo-claro.png'
+}*/
