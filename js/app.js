@@ -19,7 +19,7 @@ function registrar(){
          mensaje = mensaje + "<p class='mensajeError'><strong>Los apellidos deben tener entre 3 y 30 caracteres</strong></p>"
       }     
         mensajeError.innerHTML = mensaje
-   }
+   }if(mensaje === ''){}
             
 function modoOscuro() {
    document.body.classList.toggle('oscuro');
