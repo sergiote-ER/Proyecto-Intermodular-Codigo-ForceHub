@@ -302,7 +302,7 @@ body.oscuro header .logo-hub {
 /* FORMULARIOS Y COSAS RELACIONADAS */
 body.oscuro .formulario {
   background-color: #1e1e1e;
-  box-shadow: rgba(0,0,0,0.5);
+  box-shadow: rgba(255,255,255,1);
 }
 
 body.oscuro .formulario input,
@@ -347,7 +347,7 @@ body.oscuro .boton-alt button:hover {
 body.oscuro .rutinas,
 body.oscuro .rutina-ejercicio {
   background-color: #1e1e1e;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+  box-shadow: 0 4px 12px rgba(255,255,255,0.3);
 }
 
 body.oscuro .rutinas .descripcion-rutina {

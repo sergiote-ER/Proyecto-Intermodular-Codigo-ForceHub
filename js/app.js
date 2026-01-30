@@ -18,7 +18,7 @@ function registrar(){
       if(apellidos_usuario.length<3 || apellidos_usuario.length>30){
          mensaje = mensaje + "<p class='mensajeError'><strong>Los apellidos deben tener entre 3 y 30 caracteres</strong></p>"
       }     
-        mensajeError.innerHTML = mensaje
+         mensajeError.innerHTML = mensaje
    }if(mensaje === ''){}
             
 function modoOscuro() {
