@@ -302,7 +302,7 @@ body.oscuro header .logo-hub {
 /* FORMULARIOS Y COSAS RELACIONADAS */
 body.oscuro .formulario {
   background-color: #1e1e1e;
-  box-shadow: rgba(255,255,255,1);
+  box-shadow: rgba(0,0,0,0.5);
 }
 
 body.oscuro .formulario input,
