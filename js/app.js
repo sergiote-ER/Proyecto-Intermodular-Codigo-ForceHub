@@ -7,6 +7,7 @@ function registrar(){
    let apellidos_usuario = document.getElementById("apellidos").value
    let correo_contacto=document.getElementById("correo_contacto").value
    let asunto=document.getElementById("asunto").value
+
    if(nombre_usuario.length<3 || nombre_usuario.length>20){
       mensaje = mensaje + "<p class=mensajeError>'><strong>El nombre debe tener entre 3 y 20 caracteres</p>"
    }     
@@ -19,8 +20,7 @@ function registrar(){
       if(apellidos_usuario.length<3 || apellidos_usuario.length>30){
          mensaje = mensaje + "<p class='mensajeError'><strong>Los apellidos deben tener entre 3 y 30 caracteres</strong></p>"
       }     
-         mensajeError.innerHTML = mensaje
-   }if(mensaje === ''){}
+   }
    if(nick.length<3 || nick.length>20){
       mensaje = mensaje + "<p class='mensajeError'><strong>El nick debe tener entre 3 y 20 caracteres</strong></p>"
    }
@@ -48,6 +48,9 @@ function registrar(){
    if(pago_metodo === "tarjeta" || pago_metodo === "paypal" || pago_metodo === "transferencia" || pago_metodo === "google_pay" || pago_metodo === "apple_pay"){
       mensaje = mensaje + "<p class='mensajeError'><strong>El método de pago debe ser tarjeta, paypal, transferencia, google_pay o apple_pay</strong></p>"
    }
+   if(mensaje === ''){
+      alert("Registro completado correctamente");
+   }
    if(mensaje.length<10 || mensaje.length>200){
    mensajeError.innerHTML="<p class='mensajeError'><strong>El mensaje debe tener al menos 10 caracteres y no más de 200.</strong></p>"
    }
@@ -57,9 +60,6 @@ function registrar(){
    if(asunto.length<5 || asunto.length>100){
    mensajeError.innerHTML="<p class='mensajeError'><strong>El asunto debe tener al menos 5 caracteres y no más de 100.</strong></p>"
    }
-   if(mensaje === ''){
-         alert("Registro completado correctamente");
-      }
        mensajeError.innerHTML = mensaje
 function modoOscuro() {
    document.body.classList.toggle('oscuro');
