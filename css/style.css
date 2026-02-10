@@ -2,17 +2,22 @@ body {
     background-color: #f8f9fa;
     font-family: 'Roboto', sans-serif;
     color: #333333;
+    visibility: hidden;
+}
+
+body.visible {
+  visibility: visible;
 }
 
 /* CABECERA */
 
 header {
-    background: #222;
-    padding: 10px 0;
-    position: fixed;
-    top: 5px;
-    left: 5px;
-    right: 5px;
+  background: #222;
+  padding: 10px 0;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  right: 5px;
 }
 header .logo {
   font-family: 'Montserrat', sans-serif;

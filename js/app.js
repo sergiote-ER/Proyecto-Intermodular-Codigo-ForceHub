@@ -1,3 +1,31 @@
+const modo = localStorage.getItem("modo");
+const cambiarImg = document.getElementById('cambiarModo');
+
+if (modo === "oscuro") {
+   document.body.classList.add("oscuro");
+   if (document.getElementById('cambiarModo')) {
+      document.getElementById('cambiarModo').src = '../img/modo-claro.png';
+   }
+} else {
+   document.body.classList.remove("oscuro");
+   if (document.getElementById('cambiarModo')) {
+      document.getElementById('cambiarModo').src = './img/modo-oscuro.png';
+   }
+}
+
+document.body.classList.add("visible");
+
+function modoOscuro() {
+   document.body.classList.toggle('oscuro');
+   if (document.body.classList.contains('oscuro')) {
+      document.getElementById('cambiarModo').src = '/img/modo-claro.png';
+      localStorage.setItem("modo", "oscuro");
+   } else {
+      document.getElementById('cambiarModo').src = '/img/modo-oscuro.png';
+      localStorage.setItem("modo", "claro");
+   }
+}
+
 function registrar(){
    let mensaje = ''
    let mensajeError = document.getElementById("mensajeError")
@@ -61,14 +89,11 @@ function registrar(){
    mensajeError.innerHTML="<p class='mensajeError'><strong>El asunto debe tener al menos 5 caracteres y no más de 100.</strong></p>"
    }
        mensajeError.innerHTML = mensaje
-function modoOscuro() {
-   document.body.classList.toggle('oscuro');
-   if (document.body.classList.contains('oscuro')) {
-      document.getElementById('cambiarModo').src = '/img/modo-claro.png';
-   } else {
-      document.getElementById('cambiarModo').src = '/img/modo-oscuro.png';
-   }
-}
+
+
+
+
+
 
 /*function init(){
    let iconoOscuro = document.getElementById('cambiarModo')
