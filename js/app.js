@@ -1,5 +1,4 @@
 const modo = localStorage.getItem("modo");
-const cambiarImg = document.getElementById('cambiarModo');
 
 if (modo === "oscuro") {
    document.body.classList.add("oscuro");
