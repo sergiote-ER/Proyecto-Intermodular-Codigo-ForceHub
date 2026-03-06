@@ -1,15 +1,15 @@
-const modo = localStorage.getItem("modo");
+let modo = localStorage.getItem("modo");
 let cambiarModo = document.getElementById("cambiarModo")
 
 if (modo === "oscuro") {
    document.body.classList.add("oscuro");
    if (document.getElementById('cambiarModo')) {
-      document.getElementById('cambiarModo').src = '../img/modo-claro.png';
+      document.getElementById('cambiarModo').src = '/img/modo-claro.png';
    }
 } else {
    document.body.classList.remove("oscuro");
    if (document.getElementById('cambiarModo')) {
-      document.getElementById('cambiarModo').src = './img/modo-oscuro.png';
+      document.getElementById('cambiarModo').src = '/img/modo-oscuro.png';
    }
 }
 
@@ -89,3 +89,5 @@ function registrar(){
    mensajeError.innerHTML="<p class='mensajeError'><strong>El asunto debe tener al menos 5 caracteres y no más de 100.</strong></p>"
    }
        mensajeError.innerHTML = mensaje
+
+       saldo.value.length
