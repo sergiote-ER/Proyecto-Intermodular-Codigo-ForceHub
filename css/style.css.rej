@@ -1,9 +1,0 @@
-diff a/css/style.css b/css/style.css	(rejected hunks)
-@@ -302,6 +302,7 @@
- /* FORMULARIOS Y COSAS RELACIONADAS */
- body.oscuro .formulario {
-   background-color: #1e1e1e;
-+  box-shadow: rgba(255,255,255,1);
- }
- 
- body.oscuro .formulario input,
