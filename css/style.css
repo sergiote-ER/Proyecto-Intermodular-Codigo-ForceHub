@@ -1,8 +1,8 @@
 body {
-    background-color: #f8f9fa;
-    font-family: 'Roboto', sans-serif;
-    color: #333333;
-    visibility: hidden;
+  background-color: #f8f9fa;
+  font-family: "Roboto", sans-serif;
+  color: #333333;
+  visibility: hidden;
 }
 
 body.visible {
@@ -20,37 +20,37 @@ header {
   right: 5px;
 }
 header .logo {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 32px;
 }
 
 header .logo-force {
-  color: #333333; 
+  color: #333333;
 }
 
 header .logo-hub {
-  background-color: #28a745; 
+  background-color: #28a745;
   border-radius: 10px;
   padding: 3px;
   color: #f8f9fa;
 }
 
 header nav {
-    background-color: #f8f9fa;           
-    border-bottom: 3px solid #28a745;    
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px 40px;
+  background-color: #f8f9fa;
+  border-bottom: 3px solid #28a745;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
 }
 
 header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 25px;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
 }
 
 header nav li {
@@ -59,19 +59,19 @@ header nav li {
 }
 
 header nav li a {
-    color: #333333;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1rem;
-    padding: 8px 12px;
-    border-radius: 6px;
-    transition: 0.3s;
-    font-family: 'Roboto', sans-serif;
+  color: #333333;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: 0.3s;
+  font-family: "Roboto", sans-serif;
 }
 
 header nav li a:hover {
-    background-color: #28a745;
-    color: white;
+  background-color: #28a745;
+  color: white;
 }
 
 header li img {
@@ -85,16 +85,16 @@ header li img {
 /* FORMULARIO Y COSAS RELACIONADAS CON ELLOS */
 
 .formulario {
-  background-color: white; 
+  background-color: white;
   border-radius: 10px;
   padding: 50px;
   max-width: 500px;
-  margin: 150px auto; 
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin: 150px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .formulario input,
-.formulario select  {
+.formulario select {
   width: 95%;
   padding: 10px;
   margin-bottom: 15px;
@@ -103,7 +103,7 @@ header li img {
   font-size: 1rem;
 }
 
-.formulario textarea  {
+.formulario textarea {
   width: 95%;
   height: 150px;
   padding: 10px;
@@ -116,7 +116,7 @@ header li img {
 .formulario input:focus,
 .formulario select:focus,
 .formulario textarea:focus {
-  border-color: #28a745; 
+  border-color: #28a745;
   outline: none;
 }
 
@@ -125,7 +125,7 @@ header li img {
 .formulario button {
   width: 100%;
   padding: 12px;
-  background-color: #28a745; 
+  background-color: #28a745;
   color: white;
   font-size: 16px;
   font-weight: bold;
@@ -141,14 +141,14 @@ header li img {
 }
 
 .limpiar button {
-  background-color: rgb(237, 8, 8); 
+  background-color: rgb(237, 8, 8);
 }
 
 .limpiar button:hover {
   background-color: rgb(172, 12, 12);
 }
 button:hover {
-  background-color: #218838; 
+  background-color: #218838;
 }
 
 .boton-alt button {
@@ -163,7 +163,7 @@ button:hover {
 
 .contenedor-rutinas {
   display: grid;
-  grid-template-columns: repeat(3, 32.5%); 
+  grid-template-columns: repeat(3, 32.5%);
   gap: 20px;
   padding: 20px;
   margin-top: 120px;
@@ -173,7 +173,7 @@ button:hover {
   background: #ffffff;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   text-align: left;
   border-left: 5px solid #28a745;
   margin-bottom: 15px;
@@ -183,7 +183,7 @@ button:hover {
   background: #ffffff;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: left;
   border-left: 5px solid #28a745;
   margin-top: 120px;
@@ -200,7 +200,9 @@ button:hover {
   margin-bottom: 15px;
 }
 
-.principiante, .intermedio, .avanzado {
+.principiante,
+.intermedio,
+.avanzado {
   display: inline-block;
   padding: 6px 10px;
   border-radius: 6px;
@@ -213,12 +215,12 @@ button:hover {
   background: #66b3ff;
 }
 
-.intermedio { 
-  background: #ff6f00; 
+.intermedio {
+  background: #ff6f00;
 }
 
-.avanzado { 
-  background: #dc3545; 
+.avanzado {
+  background: #dc3545;
 }
 
 .rutinas a {
@@ -307,7 +309,7 @@ body.oscuro header .logo-hub {
 /* FORMULARIOS Y COSAS RELACIONADAS */
 body.oscuro .formulario {
   background-color: #1e1e1e;
-  box-shadow: 0 4px 12px rgba(255,255,255,0.3);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
 }
 
 body.oscuro .formulario input,
@@ -352,7 +354,7 @@ body.oscuro .boton-alt button:hover {
 body.oscuro .rutinas,
 body.oscuro .rutina-ejercicio {
   background-color: #1e1e1e;
-  box-shadow: 0 4px 12px rgba(255,255,255,0.3);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
 }
 
 body.oscuro .rutinas .descripcion-rutina {
